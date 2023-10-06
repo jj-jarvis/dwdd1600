@@ -1,0 +1,122 @@
+body{
+    font-family: 'newnord', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    margin: 0;
+}
+/*header stuff here*/
+header{
+    background-color: #BBD9BA;
+    padding: 1rem 2vw;
+}
+header h1{
+    font-family: soap, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    color: #292929;
+}
+header p{
+    margin: 0 7vw;
+    color: #292929;
+    letter-spacing: 1px;
+}
+/*nav stuff here*/
+nav{
+    background-color: #F2E7DC;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0.25vw 2vw;
+    margin: 0vw;
+    display: flex;
+}
+nav a{
+    font: 1.1rem;
+    text-decoration: none;
+    color: #292929;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a{
+    background-color: #292929;
+    color: #F2E7DC;
+    border: 3px solid #804221;
+    border-radius: .7rem;
+}
+nav a:hover{
+    color: #ffffff;
+}
+/*main stuff*/
+main {
+    padding: 1rem 2vw;
+}
+main h1{
+    font-family: 'soap', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #804221;
+}
+main h2{
+    font-family: 'newnord', sans-serif;
+    font-style: normal;
+    font-weight: 900;    
+    color: #335932;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0; 
+} 
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+    list-style-type: georgian;
+}
+main dl{
+    background-color: #292929;
+    padding: .5rem 3vw;
+}
+main dl dt {
+    color: #F2E7DC;
+    font-weight: 900;
+}
+main dl dd{
+    color: #BBD9BA;
+    font-size: .9rem;
+
+}
+main ul{
+    list-style-type: square;
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    padding: .5rem;
+    width: 22rem;
+    border: 3px solid #804221;
+    border-radius: .5rem;
+}
+main a{
+    color: #804221;
+}
+main a:hover{
+    color: #335932;
+}
+/*footer stuff*/
+footer{
+    background-color: #F2E7DC;
+    text-align: center;
+    color: #804221;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #804221;
+}
