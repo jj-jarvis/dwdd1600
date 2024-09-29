@@ -1,0 +1,193 @@
+/*prevent problems with different browsers*/
+* {box-sizing: border-box;}
+
+body{
+    font-family: "Quicksand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400; 
+    margin: 0;
+}
+
+/*header stuff here*/
+header{
+    background-color: #000;
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+header div{
+    padding-left: 2vw;
+}
+header img{
+    border:2px solid #000;
+}
+header h1{
+    font-family: "Titan-one", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    color: #fff;
+}
+header p{
+    margin: 0 3vw;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/*nav stuff here*/
+
+/*small screens*/
+@media only screen and (max-width: 800px){
+
+    nav {
+        border-top: solid 1px #fff;
+        
+    }
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        
+    }
+    nav a {
+        display: block;
+        padding: .8rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #B84B27;
+        background-color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #aaa;
+    }
+    
+    nav .active a {
+        background-color: #B84B27;
+        background-image: linear-gradient(to bottom, #B84B27, #a6401e);
+        color: #fff;
+    }
+} /*end of media query*/
+
+/* wide screens*/
+@media only screen and (min-width: 801px){
+    
+    nav{
+        background-color: #fff;
+        border: 3px solid #B84B27;
+    
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0.25vw 2vw;
+        margin: 0.2vw;
+        display: flex;
+    }
+    nav a{
+        font: 1.1rem;
+        text-decoration: none;
+        color: #B84B27;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+    nav li.active a{
+        background-color: #B84B27;
+        background-image: linear-gradient(to bottom, #B84B27, #a6401e);
+        color: #fff;
+        
+        border-radius: .7rem;
+    }
+    nav a:hover{
+        color: #000;
+    }
+} /*end of media query*/
+
+/*main stuff*/
+main {
+    padding: 1rem 2vw;
+}
+main h1{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #B84B27;
+}
+main h2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main p {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin: 0 0 .3rem 0; 
+} 
+main ol {
+    padding: .5rem 3vw;
+    background-color: #eee;
+    list-style-type: circle;
+    color: #000;
+}
+main dl{
+    background-color: #eee;
+    padding: .5rem 3vw;
+}
+main dl dt {
+    color: #B84B27;
+    font-weight: 900;
+}
+main dl dd{
+    color: #333;
+    font-size: .9rem;
+
+}
+main ul{
+    list-style-type: square;
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    padding: .5rem;
+    width: 22rem;
+    border: 3px solid #B84B27;
+    border-radius: .5rem;
+}
+main a {
+    color: #B84B27;
+}
+main a.button {
+    background-color: #B84B27;
+    color: #fff;
+    border-radius: .5rem;
+    padding: 0.25vw 2vw;
+    margin: 1rem 0 0 .5vw;
+}
+main a:hover{
+    color: #333;
+}
+main a.button:hover{
+    background-color: #fff;
+    color: #B84B27;
+    border: 1px solid #B84B27;
+    border-radius: .5rem;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+}
+.banner img{
+    width: 100%;
+  height: auto;
+}
